@@ -3,6 +3,8 @@
  */
 public class Carros {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Hatch onix = new Hatch();
+        Sedan corolla = new Sedan();
+        SUV tracker = new SUV();
     }
 }
