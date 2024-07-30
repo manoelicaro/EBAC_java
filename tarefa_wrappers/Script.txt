@@ -1,0 +1,7 @@
+- [x] Criar uma classe.
+- [x] Dentro dela você vai ler do console um valor leia um valor numérico.
+- [x] Coloque numa variável do tipo primitiva.
+- [x] Faça a conversão para o tipo dessa variável
+- [x] Imprima novamente no console.
+- [x] Coloque na pasta “tarefa_wrappers”
+- [x] Versione no GitHub.
