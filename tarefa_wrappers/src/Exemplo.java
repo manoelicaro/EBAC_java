@@ -1,25 +1,34 @@
-// Primeiro exemplo de casting
-
 /**
  * @author icarogaldino
+ */
+
+/** Primeiro exemplo de casting de primitivos para wrapper
+ * Atualizado em 01.08.2021 as 11:28
+ * Versão 0.1 - Após feedback do professor do dia 31.07.2021 as 23:35
+ * Update: Inclusão da conversão de primitivos para wrapper
  */
 
 //Criar uma classe
 public class Exemplo {
     public static void main(String[] args) {
-        //Criar variáveis
-        int x = 10;
+        //Variáveis primitivas
+        byte byteP = 10;
+        short shotP = 20;
+        int intP = 150;
 
-        //Imprimir a variável x
-        System.out.println(x);
+        //Impressão dos valores primitivos
+        System.out.println(byteP);
+        System.out.println(shotP);
+        System.out.println(intP);
 
-        //Criar variável
-        double y = 0;
+        //Casting de primitivos para wrapper
+        Byte byteW = byteP;
+        Short shortW = shotP;
+        Integer intW = intP;
 
-        //Converter a variável x para double
-        y = (double) x;
-
-        //Imprimir a variável z
-        System.out.println(y);
+        //Impressão dos valores wrapper
+        System.out.println(byteW);
+        System.out.println(shortW);
+        System.out.println(intW);
     }
 }
